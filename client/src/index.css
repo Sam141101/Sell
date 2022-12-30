@@ -1,0 +1,36 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=vietnamese');
+
+:root {
+    --text-color: #000000;
+
+    --color-active: #5fbd74;
+
+    --default-layout-topbar-height: 50px;
+    --default-layout-width: 1140px;
+    --default-layout-padding-topbar-spacer: 15px;
+    --default-layout-header-height: 140px;
+
+    --header-height: 116px;
+    --header-mobile-height: 70px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif !important;
+
+    line-height: 1.4;
+    font-size: 14px;
+    color: #000000;
+    overflow-x: hidden;
+    background: #fff;
+}
